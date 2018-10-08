@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
   <html lang="en">
     <head>
       <meta charset="UTF-8">
       <link href="css/style.css" rel="stylesheet" type="text/css">
       <title>www</title>
     </head>  
-    <body>
+    <body >
       <div class="panel">
          <img src="1.jpg" class="img1" onclick="javascript:document.location.href='home.html'">
       </div>
@@ -21,23 +21,12 @@
       <div class="k4">
           <span class=text>Тест</span>
       </div>
-      <div class="k5" onclick="javascript:document.location.href='log.html'">
-          <span class=text>Тест</span>
-      </div>
-      <div class="k6">
-          <span class=text>Тест</span>
-      </div>
-        <div class="block">Текст1
-      </div>
-        <div class="block1">Текст2
-      </div>
-      <div class="ttt">
-         <span class="text2">ауе
-         </span>
-      </div>
-    <footer>
-      <div class="foo"></div>
-    </footer>
-      <script src="js/script.js"></script>
+      <form id="slick-login">
+         <label for="username">Логин:</label>
+           <input type="text" name="username" class="placeholder" placeholder="Login or Mail">
+         <label for="password">Пароль:</label>
+           <input type="password" name="password" class="placeholder" placeholder="Password">
+           <input class="text" type="submit" value="log in">
+      </form>
     </body>
   </html>
