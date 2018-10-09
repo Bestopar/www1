@@ -1,4 +1,5 @@
-/*var o=1;
+/*
+var o=1;
     s=1;
 while (o<10) {
 	console.log(o);
@@ -58,3 +59,12 @@ var wt = function() {
 }
 var t1=wt();
 console.log(wt);
+*/
+var text1=function(str)
+{
+var split="-";
+var tt1 =str.split(split);
+return tt1;
+}
+var t1=text1 ("primer text");
+console.log(t1);

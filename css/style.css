@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Suez+One');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 .panel {
     width: 100%;
     height: 100px;
     background-color: #2a2a2e;
     border-bottom:solid 2px black ;
 }
+.log {
+    font-family: 'Suez One', serif;
+    color: #00ff00;
+    font-size: 340%;
+    position: absolute;
+    left: 90px;
+    top: 32px;
+}
 body {
     margin: 0px;
-    background-color:#bbb;
 }
 .k1 {
     width: 120px;
@@ -27,7 +35,7 @@ body {
     position: absolute;
     left: 380px ;
     top: 50px;
-    background-color: #00ff00;
+    background-color: #940101;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: 2px solid black;
@@ -48,7 +56,7 @@ body {
     position: absolute;
     left: 520px ;
     top: 50px;
-    background-color: #00ff00;
+    background-color: #025127;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: 2px solid black;
@@ -68,7 +76,7 @@ body {
     position: absolute;
     left: 660px ;
     top: 50px;
-    background-color: #00ff00;
+    background-color: #1981d6;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: 2px solid black;
@@ -245,34 +253,611 @@ body {
     position: absolute;
     left:0px;
 }
-.foo {
-    width: 100%;
-    height: 40px;
-    background-color: #2a2a2e;
-    position: absolute;
-    bottom:0px;   
-}
 .ttt {
     width:0px;
-    height:150px;
+    height:40px;
     border-right:50px #2a2a2e solid;
     border-left:50px #2a2a2e solid;
     background-color: #00ff00;
-    position: absolute;
-    top:50%;
-    left:50%;
+    position: fixed;
+    top: 98.1%;
+    left: 98%;
     transition: .2s;
     transform: rotate(90deg);
 }
-.ttt:hover {
-    width:110px;
-    height:150px;
+.ttt:active {
+    width: 124px;
+    height: 60px;
     border-right:5px #2a2a2e solid;
     border-left:5px #2a2a2e solid;
     background-color: #00ff00;
     transform: rotate(0deg);
     color:#2a2a2e;
+    top: 90%;
+    left: 93%;
 }
+.foo {
+    width: 100%;
+    height: 40px;
+    background-color: #2a2a2e;
+    position: fixed;
+    bottom:0px;   
+}
+
 .text2 {
     color:#2a2a2e;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.img2 {
+    position:absolute;
+    top: 10px;
+    left: 26px;
+}
+.text3 {
+    color:rgba(0, 0, 0, 0);
+    position: absolute;
+    left:130px;
+    font-size: 1%;
+}
+.name {
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 90px;
+    font-size: 1%;
+    font-family: 'Anton', sans-serif;
+    left: 10px;
+    width: 100px;
+}
+
+.bstr {
+    background-color: #2B2C31;
+    width: 922px;
+    height: 800px;
+    position: fixed;
+    left: 130px;
+    top: 110px;
+    border-radius: 20px;
+}
+
+.aba {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:150px;
+    top:120px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:37;
+}
+.aba:active {
+    width:400px;
+    height:410px;
+    border:solid 2px black;
+}
+.aba:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.aba:active .name{
+   color: rgba(255,255,255, 1);
+   font-size: 140%; 
+}
+.abai {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.alh {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:300px;
+    top:120px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+     z-index:36;
+}
+.alh:active {
+    width:400px;
+    height:410px;
+    border:solid 2px black;
+}
+.alh:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.alh:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%; 
+}
+.alhi {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.axe {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:450px;
+    top:120px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+     z-index:35;
+}
+.axe:active {
+    width:400px;
+    height:320px;
+    border:solid 2px black;
+}
+.axe:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.axe:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+   } 
+.axei {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.bea {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:600px;
+    top:120px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+     z-index:34;
+}
+.bea:active {
+    width:400px;
+    height:530px;
+    border:solid 2px black;
+}
+.bea:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.bea:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+   } 
+.beai {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.bre {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:750px;
+    top:120px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+     z-index:33;
+}
+.bre:active {
+    width:400px;
+    height:440px;
+    border:solid 2px black;
+}
+.bre:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.bre:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+   } 
+.brei {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.bri {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:900px;
+    top:120px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+     z-index:32;
+}
+.bri:active {
+    width:400px;
+    height:500px;
+    border:solid 2px black;
+}
+.bri:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.bri:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.brii {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.Cen {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:150px;
+    top:240px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:31;
+}
+.Cen:active {
+    width:400px;
+    height:500px;
+    border:solid 2px black;
+}
+.Cen:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.Cen:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.Ceni {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.Cha {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:300px;
+    top:240px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:30;
+}
+.Cha:active {
+    width:400px;
+    height:320px;
+    border:solid 2px black;
+}
+.Cha:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.Cha:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.Chai {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.Clo {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:450px;
+    top:240px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:29;
+}
+.Clo:active {
+    width:400px;
+    height:405px;
+    border:solid 2px black;
+}
+.Clo:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.Clo:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.Cloi {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.Doo {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:600px;
+    top:240px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:28;
+}
+.Doo:active {
+    width:400px;
+    height:360px;
+    border:solid 2px black;
+}
+.Doo:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.Doo:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.Dooi {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.Dra {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:750px;
+    top:240px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:27;
+}
+.Dra:active {
+    width:400px;
+    height:300px;
+    border:solid 2px black;
+}
+.Dra:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.Dra:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.Drai {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.ear {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:900px;
+    top:240px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:26;
+}
+.ear:active {
+    width:400px;
+    height:285px;
+    border:solid 2px black;
+}
+.ear:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.ear:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.eari {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.ear1 {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:150px;
+    top:360px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:25;
+}
+.ear1:active {
+    width:400px;
+    height: 290px;
+    border:solid 2px black;
+}
+.ear1:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.ear1:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.ear1i {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.eld {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:300px;
+    top:360px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:24;
+}
+.eld:active {
+    width: 500px;
+    height: 360px;
+    border:solid 2px black;
+}
+.eld:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.eld:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.eldi {
+    position: absolute;
+    left: 0px;
+    
+    top: -80px;
+    border-radius: 10px;
+}
+.hus {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:450px;
+    top:360px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:23;
+}
+.hus:active {
+    width:400px;
+    height:360px;
+    border:solid 2px black;
+}
+.hus:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.hus:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.husi {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.io {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:600px;
+    top:360px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:22;
+}
+.io:active {
+    width:400px;
+    height:360px;
+    border:solid 2px black;
+}
+.io:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.io:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.ioi {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.kun {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:750px;
+    top:360px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:21;
+}
+.kun:active {
+    width: 500px;
+    height: 330px;
+    border:solid 2px black;
+}
+.kun:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.kun:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.kuni {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
+}
+.leg {
+    width:131px;
+    height:82px;
+    position: fixed;
+    left:900px;
+    top:360px;
+    background-color:#222328;
+    border-radius: 10px;
+    transition: .2s;
+    z-index:20;
+}
+.leg:active {
+    width: 555px;
+    height: 375px;
+    border:solid 2px black;
+}
+.leg:active .text3{
+   color: rgba(255,255,255, 1);
+   font-size: 74%;
+}
+.leg:active .name{
+   color: rgba(255,255,255, 1); 
+   font-size: 140%;
+} 
+.legi {
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10px;
 }
