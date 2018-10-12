@@ -59,7 +59,7 @@ var wt = function() {
 }
 var t1=wt();
 console.log(wt);
-*/
+
 var text1=function(str)
 {
 var split="-";
@@ -68,3 +68,13 @@ return tt1;
 }
 var t1=text1 ("primer text");
 console.log(t1);
+*/
+var ma=[1,2,3];
+ma.join();
+ma.join("");
+ma.join("  ")
+var mas=new Array(10);
+mas = [0,0,0,0,0,0];
+mas.join('-')
+console.log(ma);
+console.log(mas);
